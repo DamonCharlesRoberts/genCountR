@@ -11,10 +11,6 @@
 #' 
 #' @return
 #' list of each word in all lower case and without punctuation.
-#' 
-#' @examples
-#' text <- 'Hero. hero Heroine. heroine, Prison. Prisom.'
-#' text_clean(text)
 #'
 text_clean <- function(
   text

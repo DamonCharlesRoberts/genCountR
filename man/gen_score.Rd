@@ -20,7 +20,7 @@ Takes the matched words and their occurrence in the supplied text, finds the sco
 }
 \examples{
 text <- 'Hero. hero Heroine. heroine, Prison. Prisom.'
-result <- gen_score(text)
+result <- genCountR::gen_score(text)
 result$avg_score
 result$total_score
 result$df

@@ -13,9 +13,8 @@ library(testthat)
 devtools::load_all()
 
 # Text for testing
-text <- 'Hero. hero Heroine. heroine, Prison. Prisom.'
+text <- 'This person was a heroine due to their fighting during the war.'
 
-gen_count(text)
 # Testing
   #* Check that it returns dataframe
 test_that("Check that it returns dataframe", {

@@ -21,6 +21,6 @@ Feminine words had a score below 2.5, Neutral words had a score higher than 2.5 
 }
 \examples{
 text <- 'This person was a heroine due to their fighting during the war.'
-result_df <- gen_count(text)
+result_df <- genCountR::gen_count(text)
 
 }

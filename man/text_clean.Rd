@@ -18,8 +18,3 @@ Cleans the supplied text string and converts it into a list of individual words.
 \details{
 Takes the string, converts all the characters to lower case, removes punctuation, and splits the string into individual words.
 }
-\examples{
-text <- 'Hero. hero Heroine. heroine, Prison. Prisom.'
-text_clean(text)
-
-}
