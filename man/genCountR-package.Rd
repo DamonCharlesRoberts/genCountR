@@ -4,7 +4,7 @@
 \name{genCountR-package}
 \alias{genCountR}
 \alias{genCountR-package}
-\title{genCountR: A Package For Using Roberts and Utych's (2019) Gendered Language Dictionary}
+\title{genCountR: A Package for Using Roberts and Utych's (2019) Gendered Language Dictionary}
 \description{
 An R package that allows users to generate a gendered language score according to the gendered language dictionary in Roberts and Utych (2019).
 }
