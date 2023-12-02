@@ -10,7 +10,6 @@
     <img src="https://img.shields.io/github/issues-pr-raw/DamonCharlesRoberts/genCountR.svg?style=flat-square&logo=github&logoColor=white"
          alt="GitHub pull requests"></a>
    <a href = "https://github.com/DamonCharlesRoberts/genCountR/actions/workflows/publish.yml">
-   <img src="https://github.com/DamonCharlesRoberts/genCountR/actions/workflows/publish.yml/badge.svg" alt="Quarto Publish"></a>
 </p>
 
 ---
@@ -25,6 +24,10 @@ This package is a quick side project that I worked on during my dissertation. So
 
 If there are issues with the package or if you'd like to request new features, please do so on the issues tab of this repository.
 
+### Vignettes
+
+See [https://gencounter.app.damoncroberts.com](https://gencounter.app.damoncroberts.com)
+ 
 ### Project Contributors:
 
 <ul>
