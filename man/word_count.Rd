@@ -4,7 +4,7 @@
 \alias{word_count}
 \title{word_count}
 \usage{
-word_count(word_list)
+word_count(word_item)
 }
 \arguments{
 \item{word_list}{(vector or array): A vector or array of words from the text wanting to be matched to dictionary.}

@@ -47,7 +47,7 @@ word_count <- function(
 #' Feminine words had a score below 2.5, Neutral words had a score higher than 2.5 and lower than 5.5, Masculine words had a score higher than 5.5.
 #'
 #' @param
-#' text (string): A string object of text.
+#' text (string): A string object.
 #'
 #' @return
 #' data.frame with each word from the dictionary matched with the text and its number of occurances.
@@ -60,13 +60,27 @@ gen_count <- function(
   text
 ) {
   # Clean the text in the document
-  text_clean <- base::tolower(text)
-  text_clean <- base::gsub("[[:punct:]]", " ", text_clean)
-  word_list <- base::strsplit(text_clean, "\\s+")[[1]]
+  word_list <- text_clean(text)
 
-  # Execute the function
-  result_df <- word_count(word_list)
+  # Execute the function to count words
+  df <- word_count(word_list)
 
+  # Merge with dictionary for their score
+  df <- merge(result_df, dict, how="inner", by.x = "word", by.y = "Word")
+
+  # Create column that assigns label
+  result_df <- data.frame(
+    word = df$word
+    , count = df$count
+    , score = df$mean.a.x
+  )
+  result_df["classified"] <- ifelse(
+    result_df$score < 2.5, "Feminine" # if the score is below 2.5, feminine
+    , ifelse(
+      result_df$score >= 5.5, "Masculine" # if the score is above or equal to 5.5, masculine
+      , "Neutral" # all other scores should be labelled neutral
+    )
+  )
   # Return the dataframe
   return(result_df)
 }

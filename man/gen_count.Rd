@@ -7,7 +7,7 @@
 gen_count(text)
 }
 \arguments{
-\item{text}{(string): A string object of text.}
+\item{text}{(string): A string object.}
 }
 \value{
 data.frame with each word from the dictionary matched with the text and its number of occurances.

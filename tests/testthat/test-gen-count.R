@@ -15,6 +15,7 @@ devtools::load_all()
 # Text for testing
 text <- 'Hero. hero Heroine. heroine, Prison. Prisom.'
 
+gen_count(text)
 # Testing
   #* Check that it returns dataframe
 test_that("Check that it returns dataframe", {
@@ -23,4 +24,8 @@ test_that("Check that it returns dataframe", {
   #* Check that it returns 3 rows
 test_that("Check that it returns three rows", {
   expect_true(nrow(gen_count(text)) == 3)
+})
+  #* Check that it returns 4 columns
+test_that("Check that it returns four columns", {
+  expect_length(gen_count(text), 4)
 })
