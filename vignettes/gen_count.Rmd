@@ -1,0 +1,32 @@
+---
+title: "gen_count"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{gen_count}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The `gen_count` function is a really helpful function for those who may not necessarily want to generate a score based on the Gendered Language Dictionary in Roberts and Utych ([2019](https://journals.sagepub.com/doi/10.1177/1065912919874883)). Rather, the function will enable you to simply count the occurances of a word in your supplied text with that of the dictionary along with the corresponding score of that word in the Dicitionary and whether it would be classified as Masculine, Neutral, or Feminine as according to Robert and Utych's ([2019](https://journals.sagepub.com/doi/10.1177/1065912919874883)) definition in the original paper.
+
+First, you should supply some text as a string to the function. Then, once you execute the function, it should return a `data.frame` with 4 columns: the word that was matched, the count of occurances the word appeared in your supplied text, the score of that word according to the dictionary, and the classification of the word.
+
+Here is an example of how that function works.
+
+```{r}
+# Load the package
+library(genCountR)
+
+# Pass a string to be analyzed
+str <- "This person was a hero. They were a prisoner of war and I, as President, got them out."
+
+# Use the gen_count() function on the str
+gen_count(str)
+```

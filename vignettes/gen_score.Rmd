@@ -1,0 +1,30 @@
+---
+title: "gen_score"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{gen_score}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+To find an overall score of the “genderedness” of some text, you can use the genCountR::gen_score() function. This function takes the count of words that match with those in the dictionary, sum up the scores of all of those matched occurrences and then calculates the average “document” score by dividing by the number of words passed in the string (“document”).
+
+It also returns more information than the average score. It will return a list object including the average score (avg_score), but also the total score total_score for the document before normalized based on the length of text, but also the data.frame (df) that reports which words were matched, how often they occurred, the score, and the total score provided by each word.
+
+```{r}
+# Load the package
+library(genCountR)
+
+# Pass a string to be analyzed
+str <- "This person was a hero. They were a prisoner of war and I, as President, got them out."
+
+# Use the gen_count() function on the str
+gen_score(str)
+```

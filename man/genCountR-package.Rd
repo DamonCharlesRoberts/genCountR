@@ -8,6 +8,13 @@
 \description{
 An R package that allows users to generate a gendered language score according to the gendered language dictionary in Roberts and Utych (2019).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://damoncharlesroberts.github.io/genCountR/}
+}
+
+}
 \author{
 \strong{Maintainer}: Damon Roberts \email{damon.charles.roberts@gmail.com} (\href{https://orcid.org/0000-0002-4360-3675}{ORCID})
 
