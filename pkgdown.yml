@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   gen_count: gen_count.html
   gen_score: gen_score.html
-last_built: 2023-12-05T00:31Z
+last_built: 2023-12-05T00:41Z
 urls:
   reference: https://damoncharlesroberts.github.io/genCountR/reference
   article: https://damoncharlesroberts.github.io/genCountR/articles
