@@ -11,7 +11,7 @@ An R package that allows users to generate a gendered language score according t
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://damoncharlesroberts.github.io/genCountR/}
+  \item \url{https://gencounter.app.damoncroberts.com}
 }
 
 }

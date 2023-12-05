@@ -1,5 +1,5 @@
 Package: genCountR
-Title: A Package for Using Roberts and Utych's (2019) Gendered Language Dictionary
+Title: In Roberts and Utych's (2019) Gendered Language Dictionary
 Version: 1.0.0
 Authors@R: 
     person("Damon", "Roberts", , "damon.charles.roberts@gmail.com", role = c("aut", "cre"),
@@ -18,4 +18,4 @@ Suggests:
     rmarkdown,
     testthat
 VignetteBuilder: knitr
-URL: https://damoncharlesroberts.github.io/genCountR/
+URL: https://gencounter.app.damoncroberts.com, https://damoncharlesroberts.github.io/genCountR/
