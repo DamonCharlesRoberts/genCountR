@@ -20,6 +20,34 @@ This package is a quick side project that I worked on during my dissertation. So
 
 If there are issues with the package or if you'd like to request new features, please do so on the issues tab of this repository.
 
+### Installation
+
+There are a couple of ways to install the package:
+
+- CRAN installation:
+
+```
+
+# Global installation
+install.packages("genCountR")
+
+# Installation in an R environment
+renv::install("genCountR")
+
+```
+
+- Development version installation:
+
+```
+
+# Global installation
+devtools::install_github("DamonCharlesRoberts/genCountR")
+
+# Installation in an R environment
+renv::install("DamonCharlesRoberts/genCountR")
+
+```
+
 ### Vignettes
 
 See [https://gencounter.app.damoncroberts.com](https://gencounter.app.damoncroberts.com)
