@@ -6,13 +6,12 @@
 \alias{genCountR-package}
 \title{genCountR: Interacting with Roberts and Utych's (2019) Gendered Language Dictionary}
 \description{
-Allows users to generate a gendered language score according to the gendered language dictionary in Roberts and Utych (2019).
+Allows users to generate a gendered language score according to the gendered language dictionary in Roberts and Utych (2019) \doi{10.1177/1065912919874883}.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://gencounter.app.damoncroberts.com}
-  \item \url{https://damoncharlesroberts.github.io/genCountR/}
 }
 
 }
