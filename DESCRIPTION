@@ -18,4 +18,4 @@ Suggests:
     rmarkdown,
     testthat
 VignetteBuilder: knitr
-URL: https://gencounter.app.damoncroberts.com
+URL: https://gencounter.app.damoncroberts.com, https://damoncharlesroberts.github.io/genCountR/

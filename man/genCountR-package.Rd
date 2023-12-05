@@ -12,6 +12,7 @@ Allows users to generate a gendered language score according to the gendered lan
 Useful links:
 \itemize{
   \item \url{https://gencounter.app.damoncroberts.com}
+  \item \url{https://damoncharlesroberts.github.io/genCountR/}
 }
 
 }
