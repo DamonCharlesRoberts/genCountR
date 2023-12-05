@@ -4,14 +4,15 @@
 \name{genCountR-package}
 \alias{genCountR}
 \alias{genCountR-package}
-\title{genCountR: A Package for Using Roberts and Utych's (2019) Gendered Language Dictionary}
+\title{genCountR: Interacting with Roberts and Utych's (2019) Gendered Language Dictionary}
 \description{
-An R package that allows users to generate a gendered language score according to the gendered language dictionary in Roberts and Utych (2019).
+Allows users to generate a gendered language score according to the gendered language dictionary in Roberts and Utych (2019).
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://gencounter.app.damoncroberts.com}
+  \item \url{https://damoncharlesroberts.github.io/genCountR/}
 }
 
 }
