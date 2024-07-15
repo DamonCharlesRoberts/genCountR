@@ -50,7 +50,7 @@ renv::install("DamonCharlesRoberts/genCountR")
 
 ### Vignettes
 
-See [https://gencounter.app.damoncroberts.com](https://gencounter.app.damoncroberts.com)
+See [https://gencounter.software.damoncroberts.io](https://gencounter.software.damoncroberts.io)
 
 ### Webapp
 
