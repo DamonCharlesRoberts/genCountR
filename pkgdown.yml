@@ -1,10 +1,10 @@
 pandoc: 3.1.11
-pkgdown: 2.1.0
+pkgdown: 2.1.3
 pkgdown_sha: ~
 articles:
   gen_count: gen_count.html
   gen_score: gen_score.html
-last_built: 2024-07-15T02:18Z
+last_built: 2025-08-09T20:17Z
 urls:
   reference: https://damoncharlesroberts.github.io/genCountR/reference
   article: https://damoncharlesroberts.github.io/genCountR/articles
